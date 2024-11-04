@@ -1107,10 +1107,6 @@ nav ul li:last-child {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-textarea:focus {
-    border-color: #4D5AE5;
-}
-
 .modal-textarea::placeholder {
     font-size: 12px;
     line-height: 1.16667;
@@ -1198,5 +1194,8 @@ nav ul li:last-child {
     .modal-input:focus+.modal-icon {
         fill: #4D5AE5;
     }
-    
+
+    .modal-textarea:focus {
+        border-color: #4D5AE5;
+    }
 }
